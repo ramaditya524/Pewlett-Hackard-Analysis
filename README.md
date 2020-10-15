@@ -14,7 +14,7 @@ The purpose of this analysis is to work with Bobby to determine the number of re
 
 ![Analysis](support1.PNG)
 
-
-
 ## Summary
 
+* A total of 90,398 roles would be vacated and would need to be filled as the "Silver Tsunami" takes effect
+* There are not enough mentorship ready employees in several departments to mentor the next generation of Pewlett-Hackard employees
