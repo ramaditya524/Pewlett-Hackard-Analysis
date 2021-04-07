@@ -12,11 +12,11 @@ The purpose of this analysis is to work with Bobby to determine the number of re
 * Senior staff form the highest count of employees eligible for the mentorship program
 * Assistant Engineer form the lowest count of emloyees eligible for the mentorship program
 
-![Analysis](../mentorship titles.PNG)
+![Analysis]('mentorship titles.PNG')
 
 ## Summary
 
-![Analysis](../retiring titles.PNG)
+![Analysis]('retiring titles.PNG')
 
 * A total of 90,398 roles would be vacated and would need to be filled as the "Silver Tsunami" takes effect
 * There are not enough mentorship ready employees in several departments to mentor the next generation of Pewlett-Hackard employees
