@@ -4,11 +4,10 @@ INTO challenge_table1
 FROM employees AS e
 INNER JOIN titles AS ti
 ON e.emp_no = ti.emp_no
-WHERE e.birth_date BETWEEN '1952-01-01' AND '1955-12-31';
+WHERE e.birth_date BETWEEN '1952-01-01' AND '1955-12-31'
+order by e.emp_no;
 
-select * from challenge_table1
-order by emp_no asc;
-
+-- Use Dictinct with Orderby to remove duplicate rows
 SELECT DISTINCT ON (c1.emp_no) 
 c1.emp_no,
 c1.first_name,
@@ -18,7 +17,7 @@ INTO unique_titles
 FROM challenge_table1 c1
 ORDER BY c1.emp_no ASC,c1.to_date DESC;
 
-select * from unique_titles order by emp_no ASC;
+select * from unique_titles;
 
 SELECT COUNT(u.emp_no), u.title
 INTO retiring_titles
